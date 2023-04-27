@@ -1,0 +1,174 @@
+body {
+  background-image: url("icons/eatandlive_back.jpg");
+  background-size: cover;
+}
+
+.round {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.66);
+  display: inline-block;
+  border-radius: 10px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.link_discription {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  left: 12.78%;
+  right: 75.83%;
+  top: 5.76%;
+  bottom: 88.87%;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+
+  color: #496467;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  width: 269px;
+  height: 79px;
+  left: 79px;
+  top: 48px;
+}
+
+.headtext1 {
+  position: absolute;
+  left: 2.46%;
+  right: 60.4%;
+  top: 17.09%;
+  bottom: 71.97%;
+
+  /* H1 - Main Heading */
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 100%;
+  /* or 87px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #c45b39;
+
+  opacity: 0.5;
+}
+
+.headtext2 {
+  position: absolute;
+  left: 5.69%;
+  right: 69.17%;
+  top: 30.23%;
+  bottom: 28.55%;
+
+  /* H1 - Main Heading */
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 100%;
+  /* or 87px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  margin-right: 20px;
+  font-size: 30px;
+}
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+#link1 {
+  position: absolute;
+  left: 36.53%;
+  right: 6.53%;
+  top: 6.64%;
+  bottom: 37.6%;
+}
+
+#link2 {
+  position: absolute;
+  left: 44.93%;
+  right: 8.12%;
+  top: 40.92%;
+  bottom: 49.32%;
+}
+
+#link3 {
+  position: absolute;
+  left: 36.53%;
+  right: 6.53%;
+  top: 52.64%;
+  bottom: 37.6%;
+}
+
+#link4 {
+  position: absolute;
+  left: 54.79%;
+  right: 10.26%;
+  top: 64.65%;
+  bottom: 25.59%;
+}
+
+#link5 {
+  position: absolute;
+  left: 36.53%;
+  right: 26.53%;
+  top: 77.44%;
+  bottom: 12.79%;
+}
+
+#link6 {
+  position: absolute;
+  left: 53.47%;
+  right: 9.58%;
+  top: 87.79%;
+  bottom: 2.44%;
+}

@@ -1,0 +1,113 @@
+body{
+    background-image: url(./icons/photographers_back.jpg);
+    background-size: cover;
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  nav ul{
+    display: flex;
+  list-style: none; /* убираем маркеры списков */
+  padding: 0;
+
+  }
+  nav li {
+    margin-right: 20px;
+    font-size: 30px;
+   
+  }
+  nav a {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px; /* стандартный размер текста */
+        color: white;
+      }
+      img{
+        width: 137px;
+        height: 137px;
+        border: radius 20px;
+        border-radius: 50%;
+    }
+    .text{
+        background-color: rgba(255,255,255,0.66);
+        display: inline-block;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .header1{
+        color: white;
+        position: absolute;
+    left: 4.86%;
+    right: 17.43%;
+    top: 16.02%;
+    bottom: 58.4%;
+    font-family: 'Outfit';
+    font-style: normal;
+    /* font-weight: 700;
+    font-size: 87px;
+    line-height: 100%; */
+    /* or 87px */
+    text-align: center;
+    
+    text-transform: capitalize;
+    }
+    /* .header2{
+        background: rgba(255, 255, 255, 0.5);
+mix-blend-mode: normal;
+filter: blur(20px);
+        color: rgb(0, 0, 0);
+        position: absolute;
+    left: 24.86%;
+    right: 17.43%;
+    top: 26.02%;
+    bottom: 58.4%;
+    font-size: 50px;
+    font-family: 'Outfit';
+    font-style: normal;
+    /* font-weight: 700;
+    font-size: 87px;
+    line-height: 100%; */
+    /* or 87px */
+    /* text-align: center;
+    
+    text-transform: capitalize;
+    } */ 
+    .container1 {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        position: absolute;
+        left: 8.06%;
+        right: 82.43%;
+        top: 56.45%;
+        bottom: 30.18%;}
+    .container2 {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        position: absolute;
+        left: 34.38%;
+        right: 55.21%;
+        top: 74.9%;
+        bottom: 10.45%;}
+    .container3 {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        position: absolute;
+        left: 55.07%;
+        right: 35.42%;
+        top: 50%;
+        bottom: 36.62%;}
+
+    .container4 {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        position: absolute;
+        left: 77.08%;
+        right: 15.97%;
+        top: 63.38%;
+        bottom: 26.86%;
+    }

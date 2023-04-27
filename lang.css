@@ -1,0 +1,90 @@
+body{
+    background-image: url('./icons/lang_back.png');
+    background-size: cover;
+}
+img{
+    width: 137px;
+    height: 137px;
+    border: radius 20px;
+}
+.round{
+    border-radius: 50%;
+}
+div, text{
+    background: color 0,0,0,1;
+    color: black;
+}
+.text{
+    background-color: rgba(255,255,255,0.66);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.container1 {
+    display: flex;
+    align-items: center; /* выравнивание по вертикали */
+    gap: 10px; /* расстояние между иконкой и текстом */
+    position: absolute;
+left: 29.72%;
+right: 25.76%;
+top: 39.65%;
+bottom: 46.97%;
+  }
+  .container2 {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    position: absolute;
+left: 8.06%;
+right: 42.43%;
+top: 56.45%;
+bottom: 30.18%;
+  }
+  .container3 {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    position: absolute;
+left: 22.29%;
+right: 20.19%;
+top: 77.64%;
+bottom: 8.98%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  nav ul{
+    display: flex;
+  list-style: none; /* убираем маркеры списков */
+  padding: 0;
+
+  }
+  nav li {
+    margin-right: 20px;
+    font-size: 30px;
+   
+  }
+  nav a {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px; /* стандартный размер текста */
+        color: black;
+      }
+.header{
+    color: white;
+    position: absolute;
+left: 4.86%;
+right: 17.43%;
+top: 16.02%;
+bottom: 58.4%;
+font-family: 'Outfit';
+font-style: normal;
+/* font-weight: 700;
+font-size: 87px;
+line-height: 100%; */
+/* or 87px */
+text-align: center;
+
+text-transform: capitalize;
+}
